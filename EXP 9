@@ -1,0 +1,6 @@
+MOV AX,[1100H]	
+MOV BX,[1102H]	
+ADD AX,BX	
+in AX.
+MOV [1200H]
+HLT	
